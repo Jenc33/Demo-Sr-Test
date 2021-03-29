@@ -1,0 +1,166 @@
+{
+  "identifications": [
+    {
+      "id": "0000 00 00 0001",
+      "name": "Jorge",
+      "pLastName": "Nieto",
+      "mLastName": "Cervantes",
+      "birthdate": "1993-03-24",
+      "gender": {
+        "id": "2",
+        "nombre": "Masculino"
+      },
+      "nationality": {
+        "id": 1,
+        "nombre": "Mexicana",
+        "continente": "América"
+      },
+      "footballClub": {
+        "id": 17,
+        "nombre": "Toluca F.C.",
+        "logo": "https://s3.amazonaws.com/lmxwebsite/docs/archdgtl/AfldDrct/logos64x64/17/17.png"
+      },
+      "rfc": "NICJ930324NT7",
+      "ocupation": "Desarrollador",
+      "calle": "Laguna de Zempoala",
+      "numero": "124",
+      "colonia": "Santa Cruz Azcapotzaltongo",
+      "codigoPostal": 502903
+    },
+    {
+      "name": "Rafael",
+      "pLastName": "Nieto",
+      "mLastName": "Cervantes",
+      "birthdate": "1995-02-14",
+      "gender": {
+        "id": 2,
+        "nombre": "Masculino"
+      },
+      "nationality": {
+        "id": 1,
+        "nombre": "Mexicana",
+        "continente": "América"
+      },
+      "footballClub": {
+        "id": 5,
+        "nombre": "Xolos Tijuana",
+        "logo": "https://s3.amazonaws.com/lmxwebsite/docs/archdgtl/AfldDrct/logos64x64/5/5.png"
+      },
+      "ocupation": "Desarrollador",
+      "rfc": "NICJ930324NT7",
+      "numero": "124",
+      "calle": "Laguna de Zempoala",
+      "colonia": "Santa Cruz Azcapotzaltongo",
+      "codigoPostal": "502908",
+      "id": "77364 60 63 9823"
+    },
+    {
+      "name": "Jose",
+      "pLastName": "Nieto",
+      "mLastName": "Cervantes",
+      "birthdate": "1995-06-21",
+      "gender": {
+        "id": 2,
+        "nombre": "Masculino"
+      },
+      "nationality": {
+        "id": 2,
+        "nombre": "Francesa",
+        "continente": "Europa"
+      },
+      "footballClub": {
+        "id": 10445,
+        "nombre": "Atlas",
+        "logo": "https://s3.amazonaws.com/lmxwebsite/docs/archdgtl/AfldDrct/logos64x64/10445/10445.png"
+      },
+      "ocupation": "Delantero",
+      "rfc": "NICJ930324NT7",
+      "numero": "124",
+      "calle": "Laguna de Zempoala",
+      "colonia": "Santa Cruz Azcapotzaltongo",
+      "codigoPostal": "502908",
+      "id": "12311 04 47 8950"
+    },
+    {
+      "name": "Jorge",
+      "pLastName": "Nieto",
+      "mLastName": "Cervantes",
+      "birthdate": "1991-06-12",
+      "gender": {
+        "id": 2,
+        "nombre": "Masculino"
+      },
+      "nationality": {
+        "id": 6,
+        "nombre": "Brasileña",
+        "continente": "América"
+      },
+      "footballClub": {
+        "id": 11,
+        "nombre": "Pachuca",
+        "logo": "https://s3.amazonaws.com/lmxwebsite/docs/archdgtl/AfldDrct/logos64x64/11/11.png"
+      },
+      "ocupation": "Portero",
+      "rfc": "NICJ930324NT7",
+      "numero": "12",
+      "calle": "Sin nombre",
+      "colonia": "Buenavista",
+      "codigoPostal": "589647",
+      "id": "71454 61 22 5088"
+    },
+    {
+      "name": "José Saturnino",
+      "pLastName": "Cardozo",
+      "mLastName": "Otazú",
+      "birthdate": "1971-03-19",
+      "gender": {
+        "id": 2,
+        "nombre": "Masculino"
+      },
+      "nationality": {
+        "id": 1,
+        "nombre": "Mexicana",
+        "continente": "América"
+      },
+      "footballClub": {
+        "id": 17,
+        "nombre": "Toluca F.C.",
+        "logo": "https://s3.amazonaws.com/lmxwebsite/docs/archdgtl/AfldDrct/logos64x64/17/17.png"
+      },
+      "ocupation": "Entrenador",
+      "rfc": "CAOJ710319NT7",
+      "numero": "0",
+      "calle": "Domicilio desconocido",
+      "colonia": "Metepec",
+      "codigoPostal": "502908",
+      "id": "97371 83 15 8148"
+    },
+    {
+      "name": "Ximena",
+      "pLastName": "Gonzalez",
+      "mLastName": "Pichardo",
+      "birthdate": "2003-06-03",
+      "gender": {
+        "id": 1,
+        "nombre": "Femenino"
+      },
+      "nationality": {
+        "id": 2,
+        "nombre": "Francesa",
+        "continente": "Europa"
+      },
+      "footballClub": {
+        "id": 9,
+        "nombre": "León",
+        "logo": "https://s3.amazonaws.com/lmxwebsite/docs/archdgtl/AfldDrct/logos64x64/9/9.png"
+      },
+      "ocupation": "Mediocampo",
+      "rfc": "",
+      "numero": "124",
+      "calle": "Laguna de Zempoala",
+      "colonia": "Santa Cruz Azcapotzaltongo",
+      "codigoPostal": "502908",
+      "id": "67941 64 88 3482"
+    }
+  ]
+}

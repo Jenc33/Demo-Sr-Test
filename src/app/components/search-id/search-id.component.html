@@ -1,0 +1,60 @@
+<div class="container">
+  <br><br>
+  <h3>Búsqueda de Identificación por Id o nombre </h3>
+  <form class="mx-auto form-group" [formGroup]="searchForm" (ngSubmit)="searchID()">
+    <div class="form-row">
+      <div class="form-group col-sm-12">
+        <label for="idS">ID:</label>
+        <div class="input-group">
+          <input type="text" id="idS" class="form-control" formControlName="idS">
+        </div>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group col-sm-12">
+        <label for="name">Nombre:</label>
+        <div class="input-group">
+          <input type="text" id="name" class="form-control" formControlName="name">
+        </div>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group col-sm-12">
+        <div style="display: flex; justify-content: space-around;">
+          <button type="submit" class="btn btn-primary">Buscar</button>
+        </div>
+      </div>
+    </div>
+  </form>
+
+  <div class="row">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Fecha de Nacimiento</th>
+          <th scope="col">Género</th>
+          <th scope="col">Nacionalidad</th>
+          <th scope="col">Club de fútbol</th>
+          <th scope="col">RFC</th>
+          <th scope="col">PDF</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let id of identifications; index as i">
+          <th scope="row">{{ i + 1 }}</th>
+          <td>{{id.name}} {{id.pLastName}} {{id.mLastName}}</td>
+          <td>{{id.birthdate}}</td>
+          <td>{{id.gender.nombre}}</td>
+          <td>{{id.nationality.nombre}}</td>
+          <td>{{id.footballClub.nombre}}</td>
+          <td>{{id.rfc}}</td>
+          <td><button (click)="generatePDF(id)"  class="btn btn-primary">Generar PDF</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

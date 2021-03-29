@@ -1,0 +1,109 @@
+<div class="toolbar" role="banner">
+  <img
+    width="40"
+    alt="Angular Logo"
+    src="assets/img/logo_fmf.png"
+  />
+  <span>Evaluación Desarrollador Sr.</span>
+    <div class="spacer"></div>
+</div>
+
+<div class="content" role="main">
+  <div fxLayout="column">
+    <div fxFlex="100">
+      <strong>Bienvenido a tu prueba de Desarrollador Sr. de la Federación Mexicana de Fútbol.</strong>
+    </div>
+    <div fxFlex="100" class="pt-10">
+      Estas son las actividades que debes realizar:
+    </div>
+    <div fxFlex="100" class="pt-10">
+      <ol>
+        <li>
+          Utilizar Angular 7 o superior.
+        </li>
+        <li>
+          Crear una API que, más adelante, servirá para guardar y obtener información.
+        </li>
+        <li>
+          Instalar la librería ng-wizard <a href="https://www.npmjs.com/package/ng-wizard" target="_blank">https://www.npmjs.com/package/ng-wizard</a> para crear un componente por pasos.
+        </li>
+        <li>
+          En el <strong>primer paso</strong> debes mostrar un formulario de datos generales con la siguiente información:
+          <div fxLayout="column">
+            <div fxFlex="100" class="pt-10">
+              <ul>
+                <li>Nombre</li>
+                <li>Apellido Paterno</li>
+                <li>Apellido Materno</li>
+                <li>Fecha de Nacimiento (Con un campo de selección de fecha)</li>
+                <li>Género *</li>
+                <li>Nacionalidad *</li>
+                <li>Club de Fútbol *</li>
+                <li>Ocupación</li>
+              </ul>
+            </div>
+
+            <div fxFlex="100" class="pt-10">
+              * Estas opciones deben alimentarse de manera dinámica utilizando los <strong>JSON</strong> que se encuentran en la carpeta <strong>"data"</strong>, también se requiere crear los modelos de datos y guardarlos en la carpeta <strong>"models"</strong>
+            </div>
+
+          </div>
+        </li>
+        <li>
+          Para el <strong>segundo paso</strong> mostrarás un nuevo formulario con datos financieros:
+          <div fxLayout="column">
+            <div fxFlex="100" class="pt-10">
+              <ul>
+                <li>R.F.C. *</li>
+                <li>Calle</li>
+                <li>Número</li>
+                <li>Colonia</li>
+                <li>Código Postal (Validando que el número de dígitos sea de 6)</li>
+              </ul>
+            </div>
+
+            <div fxFlex="100" class="pt-10">
+              * Este campo solo debe aparecer si el registro que se captura es de alguien mayor a 18 años, en caso que lo sea, validar la estructura del R.F.C. antes de enviar la información
+            </div>
+          </div>
+        </li>
+        <li>
+          <div fxLayout="column">
+            <div fxFlex="100">
+              Utilizando la información capturada en el formulario, dentro del <strong>paso tres</strong> mostrar una ficha similar a la siguiente (<strong>Se tomará en cuenta el diseño implementado</strong>):
+            </div>
+            <div fxFlex="100">
+              <img src="assets/img/id-example.png">
+            </div>
+            <div fxFlex="100">
+              Mostrar la información al usuario para verificar datos y colocar un botón que, al darle click, enviará la información a la API para su almacenamiento (puedes usar JSON)
+            </div>
+          </div>
+        </li>
+        <li>
+          Instalar la librería <a href="https://www.npmjs.com/package/jspdf" target="_blank">https://www.npmjs.com/package/jspdf</a> para crear PDF.
+        </li>
+        <li>
+          En una pantalla distinta al componente de pasos, colocar un buscador por ID y por nombre
+        </li>
+        <li>
+          Al ingresar datos, debemos consumir la API para realizar la búsqueda de información y desplegarla en un listado con la siguiente información: Nombre Completo, Fecha de Nacimiento, Género, Nacionalidad, Club de Fútbol, R.F.C. y un botón que, al dar clic sobre el, despliegue la misma información en un documento PDF.
+        </li>
+        <li>
+          Una vez hayas concluido tu evaluación, debes subirlo a tu propio repositorio de <strong>GitHub</strong> o <strong>GitLab</strong> y enviar el link para su revisión.
+        </li>
+      </ol>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col sm-6">
+        <button (click)="altaId()"  class="btn btn-primary">Crear Identificación</button>
+      </div>
+      <div class="col sm-6">
+        <button (click)="searchId()"  class="btn btn-primary">Buscar Identificación</button>
+      </div>
+    </div>
+    <router-outlet *ngIf="show"></router-outlet>
+  </div>
+</div>

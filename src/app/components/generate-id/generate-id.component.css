@@ -1,0 +1,30 @@
+.content {
+  display: flex;
+  margin: 32px auto;
+  padding: 0 16px;
+  /*max-width: 960px;*/
+  flex-direction: column;
+  /*align-items: center;*/
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.logo {
+  margin-top: 90%;
+  margin-left: 15%;
+  width: 200px;
+  height: 210px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.infoId {
+  margin-top: 50%;
+  margin-left : 15%;
+  width: 420px;
+  height: 525px;
+}
+.id{
+  background-image: url('../../../assets/img/id.jpg');
+  width: 700px;
+  height: 525px;
+}
